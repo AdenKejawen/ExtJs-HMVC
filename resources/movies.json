@@ -1,0 +1,24 @@
+{
+    "data":[{
+        "title":"Los pingüinos del Sr. Poper",
+        "author":"Mark S. Waters",
+        "releaseDate":"2011-11-15",
+        "tns":"resources/images/216862163_200.jpg",
+        "duration":4.52,
+        "url":"mms://ucimedia.uci.cu/peliculas/2011/Mr..Poppers.Penguins/Mr..Poppers.Penguins.wmv"
+    },{
+        "title":"Avatar",
+        "author":"James Cameron",
+        "releaseDate":"2009-11-17",
+        "url":"mms://ucimedia.uci.cu/peliculas/2009/Avatar/Avatar.wmv",
+        "duration":3.32,
+        "tns":"resources/images/217760559_200.jpg"
+    },{
+        "title":"Star Wars Episodio I - La Amenaza Fantasma",
+        "author":"George Lucas",
+        "releaseDate":"1999-11-18",
+        "tns":"resources/images/218080637_200.jpg",
+        "duration":2.34,
+        "url":"mms://ucimedia.uci.cu/peliculas/1999/Star.Wars.Episode.I.-.The.Phantom.Menace/Star.Wars.Episode.I.-.The.Phantom.Menace.wmv"
+    }]
+}
