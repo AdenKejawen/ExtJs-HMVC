@@ -14,12 +14,6 @@ Ext.define('Reverse.controller.Main', {
             }*/
         });
     },
-    onLaunch:function(){
-        /*var toolbar = Ext.ComponentQuery.query('viewport panel[region=north] toolbar')
-       
-        if(toolbar.length>0)
-            this.decorate(toolbar[0])*/
-    },
     handleBeforeRender: function(win) {
         console.log('Reverse Before Render');
     },

@@ -1,10 +1,8 @@
 Ext.define('AM.bundles.Reverse',{
-    extend:'Ext.app.Bundle',
+    extend:'Ext.app.ApplicationBundle',
     controllers: ['Main'],
-    placeholder:{
-        selector:'viewport panel[region=north] toolbar'
-        //shell:'Main'  by default view/Main.js
-    },
+    bundles:['Viewshed'],
+    placeholder:'viewport panel[region=north] toolbar',
     launch:function(){
         console.log('reverse launched');
     }

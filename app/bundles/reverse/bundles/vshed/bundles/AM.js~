@@ -1,5 +1,6 @@
-Ext.define('AM.bundles.AM',{
+Ext.define('VS.bundles.AM',{
     extend:'Ext.app.ApplicationBundle',
+    //name: 'AM',
     controllers:["AM.movies.controller.Movies"],
     launch:function(){
         var win = Ext.create("AM.movies.view.MoviesWindow");

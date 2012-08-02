@@ -1,18 +1,14 @@
-
 Ext.define('AM.view.Viewport', {
     extend: 'Ext.container.Viewport',
     layout: 'border',
     initComponent: function() {
         this.items = [{
             region: 'north',
+            layout:'fit',
             dockedItems: [{
                 xtype: 'toolbar',
                 border:false,
-                items: [{
-                    id:'ss',
-                    xtype: 'tbtext',
-                    html:'<img src ="resources/images/logo.gif" width="30px" height="16px"/> Microsycas'
-                }]
+                items: []
             }],
             border: false
         }, {

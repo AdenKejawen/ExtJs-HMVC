@@ -1,4 +1,4 @@
-Ext.define('AM.bundles.AM',{
+Ext.define('VS.bundles.AM',{
     extend:'Ext.app.ApplicationBundle',
     controllers:["AM.movies.controller.Movies"],
     launch:function(){

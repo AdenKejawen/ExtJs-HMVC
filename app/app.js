@@ -1,16 +1,19 @@
+if(!console){
+    console={
+        log:{}
+    }
+}
 Ext.Loader.setConfig({
-    enabled:true
+    enabled : true
 });
+
 Ext.applicationBundle({
-    name: 'AM',
-    autoCreateViewport: true,
-    controllers: [],
-    bundles:[
-    /*'Viewshed',*/'Reverse','Dashboard','AM'
-    ],
-    globalConfig:true,
-    launch: function() {
+    name : 'AM',
+    autoCreateViewport : true,
+    //controllers : ['tools.Density','map.Maps'],
+    bundles : ['Board','AM','Reverse'],
+    globalConfig : true,
+    launch : function() {
         console.log('App launch');
     }
 });
-
